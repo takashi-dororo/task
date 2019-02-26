@@ -9,15 +9,15 @@ postgresql 11.2
 ```
 # はじめに
 リモートレポジトリから、あなたのローカルレポジトリへクローンを行ってくだい
-git clone
+```
+git clone https://github.com/takashi-dororo/taskleaf.git
+```
 
 
-* Database initialization
+# テストはRSpecを使用しているので、実行するには下記のコマンドをターミナルに打ってください
+```
+bundle exec rspec
+```
 
-* How to run the test suite
-`bundle exec rspec`
-
-
-* Deployment instructions
-
-* ...
+# 概要
+簡単なタスク管理アプリで、練習用に作ったものです。
