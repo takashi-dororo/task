@@ -13,7 +13,7 @@ gem 'rails_autolink'
 gem 'ransack'
 gem 'kaminari'
 gem 'sidekiq'
-gem 'webpacker'
+gem 'webpacker', '~> 3.5', '>= 3.5.5'
 # gem 'mini_racer', platforms: :ruby
 
 gem 'coffee-rails', '~> 4.2'
